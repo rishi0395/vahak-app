@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+input + label {
+  font-weight: bold;
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea,
+select {
+  display: block;
+  width: 100%;
+  padding: 6px 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* margin-bottom: 20px; */
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+
+button {
+  background-color: rgb(33, 100, 251);
+  color: white;
+  border-radius: 5px;
+  line-height: 3rem;
+  padding: 0 8rem;
+  border: none;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+}

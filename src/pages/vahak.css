@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  align-content: baseline;
+  grid-gap: 10px;
+}
+
+.logo {
+  justify-self: baseline;
+  margin-left: 10px;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.title {
+  padding: 3rem;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(9, 18, 59);
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}

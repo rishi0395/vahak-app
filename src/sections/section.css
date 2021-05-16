@@ -1,0 +1,56 @@
+.section-1 {
+  display: grid;
+  grid-auto-columns: 50%;
+  justify-content: center;
+}
+
+.section-2 {
+  display: grid;
+  grid-auto-columns: 50%;
+  justify-content: center;
+}
+
+.section-3 {
+  display: grid;
+  grid-auto-columns: 50%;
+  justify-content: center;
+}
+
+.section-4 {
+  display: grid;
+  grid-auto-columns: 50%;
+  justify-content: center;
+}
+
+.section-5 {
+  display: grid;
+  grid-auto-columns: 50%;
+  justify-content: center;
+}
+
+.journeyDetails {
+  grid-column-gap: 33rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.bidDetails {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.spanTitle {
+  color: rgb(204, 206, 207);
+  text-transform: uppercase;
+}
+
+.section-4_span {
+  display: flex;
+  align-items: baseline;
+}
+
+.formik {
+  display: grid;
+  grid-auto-columns: 50%;
+  justify-content: center;
+}

@@ -1,0 +1,15 @@
+.button {
+  background-color: rgb(33, 100, 251);
+  color: white;
+  border-radius: 5px;
+  line-height: 3rem;
+  padding: 0 8rem;
+  border: none;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+}
